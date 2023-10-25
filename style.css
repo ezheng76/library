@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.hide-scrollbar{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar{
+    display: none;
+}
+
+
+h1{
+    text-align: center;
+
+}
+
+.container{
+    margin: 20px;
+}
+
+form{
+    text-align: center;
+    margin-bottom: 15px;
+}
+button{
+    color: white;
+    background-color:steelblue;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+
+.number{
+    width: 80px;
+}
+
+
+table, th, td {
+    border: 1px solid;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
